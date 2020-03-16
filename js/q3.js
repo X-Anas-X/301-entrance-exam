@@ -28,6 +28,7 @@ form.addEventListener('submit', function(event) {
   event.preventDefault();
   var firstLine = event.target.course.value;
   var dateLine = event.target.start.value;
+
 });
 
 
