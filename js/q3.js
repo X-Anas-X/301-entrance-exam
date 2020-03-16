@@ -29,4 +29,19 @@ form.addEventListener('submit', function(event) {
   var firstLine = event.target.course.value;
   var dateLine = event.target.start.value;
 });
+
+
+
+
+function results(){
+  var finalCourses = document.getElementById('shownCourses');
+  for(var n=0; n<coursesArr.length; n++){
+    var lists = document.createElement('li');
+    finalCourses.appendChild(lists);
+    lists.textContent = coursesArr[n].name;
+  }
+}
+results();
 getItem();
+
+
