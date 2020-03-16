@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+}
+
+header{
+    height: 100px;
+    background-color: #6d8adbc7;
+}
+h1 {
+    text-align: center;
+    padding-top: 2.5%;
+    color: #fff;
+    font-size: 35px;
+}
+form#forms {
+    border: 0.1px solid #dae4ff;
+    position: absolute;
+    top: 30%;
+    height: 50%;
+    left: 8%;
+    width: 35%;
+    background-color: #dae4ff;
+}
+legend {
+    text-align: center;
+    padding-top: 30px;
+    font-size: larger;
+}
+label#course11 {
+    /* padding: 102px 0; */
+    position: absolute;
+    top: 25%;
+    left: 24%;
+}
+label#date {
+    /* padding: 102px 0; */
+    position: absolute;
+    top: 54%;
+    left: 24%;
+}
+input#course {
+    position: absolute;
+    top: 33%;
+    left: 24%;
+    height: 30px;
+    width: 286px;
+}
+input#start {
+    position: absolute;
+    top: 63%;
+    height: 33px;
+    left: 24%;
+    width: 286px;
+}
+button#submit {
+    position: absolute;
+    top: 81%;
+    left: 67%;
+    border: none;
+    width: 85px;
+    height: 38px;
+    background-color: #6d8adbc7;
+}
