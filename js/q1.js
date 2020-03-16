@@ -1,4 +1,25 @@
-var greaterThanArr = [1, 2, 3 , 4];
+var greaterThanArr = [1, 2, 3];
+
+var bigger = 2;
+var numberOfNumbers = 5;
+
+function greaterThan( greaterThanArr, bigger){
+  for ( var i =0; i< greaterThanArr.length;i++){
+    if(greaterThanArr[i]> bigger){
+      numberOfNumbers++;
+
+    }
+  }
+  // console.log(numberOfNumbers);
+  return numberOfNumbers;
+}
+var finalResults = greaterThan(greaterThanArr, bigger);
+console.log('results: ',finalResults);
+
+
+
+
+
 
 // function greaterThan(greaterThanArr){
 //   var numberOfNumbers = 20;
@@ -8,17 +29,6 @@ var greaterThanArr = [1, 2, 3 , 4];
 
 // }
 // console.log(greaterThan);
-
-
-function greaterThan(){
-  var numberOfNumbers = 20;
-  if (numberOfNumbers > 1+2+3+4){
-    return (numberOfNumbers);
-  }
-
-}
-console.log(greaterThan);
-
 
 
 
